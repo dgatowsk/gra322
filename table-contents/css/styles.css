@@ -1,0 +1,120 @@
+body {
+    background: #FEFAE0;
+    font-family: "Karla", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 90px;
+    color: #283618;
+    line-height: 1.00;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.hr { 
+    align-items: left;
+
+}
+.Daria {
+    font-weight: bolder; 
+    font-size: 120px; 
+    color: #606C38; 
+    margin-left: 450px;
+
+}
+
+.Gra {
+    font-weight: bold; 
+    color: #283618;
+    font-size: 35px; 
+    margin-left: 635px;
+
+}
+
+.Tech {
+    font-weight: bold; 
+    font-size: 35px; 
+    margin-left: 639px;
+    color: #283618; 
+
+}
+.Design {
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #283618;
+    margin-left: 100px;
+    margin-top: 100px;
+
+
+}
+ .Herb {
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #283618;
+    margin-left: 100px;
+
+ }
+
+ .ASU {
+    margin-right: 100px;
+
+ }
+
+ .Help {
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #283618;
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+
+.three {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 24px; 
+    margin-left: 639px;
+    color: #7B8B46; 
+    margin: 1px solid #283618;
+    display: flex;
+    border: 1px solid #283618;
+    padding: 2rem;
+    width: 12%;
+   
+    
+}
+
+.six {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 24px; 
+    margin-left: 639px;
+    color: #7B8B46; 
+    display: flex;
+    border: 1px solid #283618;
+    padding: 2rem;
+    width: 12%;
+    
+} 
+
+a {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 24px; 
+    margin-left: 639px;
+    color: #7B8B46; 
+    margin: 1px solid #283618;
+    display: flex;
+    border: 1px solid #283618;
+    padding: 2rem;
+    width: 12%;
+}
+
+.Space {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 500px;
+}

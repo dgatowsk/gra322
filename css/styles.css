@@ -21,7 +21,8 @@ h1 {
     font-size: 120px; 
     color: #606C38; 
     margin-left: 450px;
-
+    border-bottom: 10px dotted #606C38;
+    border-bottom-width: 1rem;
 }
 
 .Gra {
@@ -29,6 +30,7 @@ h1 {
     color: #283618;
     font-size: 35px; 
     margin-left: 635px;
+    margin-top: 4rem;
 
 }
 
@@ -82,7 +84,10 @@ h1 {
     border: 1px solid #283618;
     padding: 2rem;
     width: 12%;
-   
+    display: inline-block; 
+    background: #FEFAE0;
+    transition: backgrounds .2;
+    pointer-events: all;
     
 }
 
@@ -96,8 +101,32 @@ h1 {
     border: 1px solid #283618;
     padding: 2rem;
     width: 12%;
+    display: inline-block; 
+    background: #FEFAE0;
+    transition: backgrounds .2;
+    pointer-events: all;
     
 } 
+
+.SpaceContainer {
+    pointer-events: none;
+}
+
+.SpaceContainer:hover .three {
+    background: #283618;
+    color:#7B8B46;
+}
+
+.SpaceContainer:hover .six{
+    background: #283618;
+    color: #7B8B46;
+}
+
+.SpaceContainer:hover a{
+    background: #283618;
+    color: #7B8B46;
+
+}
 
 a {
     text-align: center;
@@ -118,3 +147,4 @@ a {
     flex-direction: column;
     height: 500px;
 }
+

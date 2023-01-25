@@ -5,23 +5,26 @@ body {
 
 h1 {
     font-weight: bold;
-    font-size: 90px;
+    font-size: 85px;
     color: #283618;
     margin-bottom: 10px;
     margin-left: 100px;
     margin-top: 55px;
     border-bottom: 10px dotted #283618;
     border-bottom-width: 1.5rem;
+    width: 70%;
+
 
 }
 
 .Daria {
     font-weight: bolder; 
-    font-size: 120px; 
+    font-size: 115px; 
     color: #606C38; 
     margin-left: 450px;
     border-bottom: 10px dotted #606C38;
     border-bottom-width: 1.5rem;
+    width: 68%;
 }
 
 .Gra {
@@ -44,8 +47,10 @@ h1 {
     font-weight: bold; 
     font-size: 20px; 
     color: #283618;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: #283618;
+    width: 74%;
 
 
 }
@@ -53,13 +58,13 @@ h1 {
     font-weight: bold; 
     font-size: 20px; 
     color: #283618;
-    margin-left: 100px;
+    margin-left: 10rem;
     margin-bottom: 1.5rem;
 
  }
 
  .ASU {
-    margin-right: 100px;
+    margin-right: 10rem;
 
  }
 
@@ -69,7 +74,7 @@ h1 {
     color: #283618;
     display: flex;
     justify-content: space-between;
-
+    
  }
 
 
@@ -78,8 +83,8 @@ h1 {
     text-align: center;
     font-weight: bold; 
     font-size: 24px; 
-    margin-left: 639px;
     color: #7B8B46; 
+    margin-left: 639px;
     margin: 1px solid #283618;
     display: flex;
     border: 1px solid #283618;
@@ -96,8 +101,8 @@ h1 {
     text-align: center;
     font-weight: bold; 
     font-size: 24px; 
-    margin-left: 639px;
-    color: #7B8B46; 
+    color: #7B8B46;
+    margin-left: 639px; 
     display: flex;
     border: 1px solid #283618;
     padding: 2rem;
@@ -124,9 +129,9 @@ h1 {
 }
 
 a {
-    text-align: center;
     font-weight: bold; 
     font-size: 24px; 
+    text-align: center;
     margin-left: 639px;
     color: #7B8B46; 
     margin: 1px solid #283618;
@@ -138,9 +143,14 @@ a {
 
 .Space {
     display: flex;
-    display: ;
     justify-content: space-evenly;
     flex-direction: column;
     height: 400px;
 }
 
+@media screen and (min-width: 1100px) {
+    h1 {
+
+
+    }
+}

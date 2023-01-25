@@ -54,6 +54,7 @@ h1 {
     font-size: 20px; 
     color: #283618;
     margin-left: 100px;
+    margin-bottom: 1.5rem;
 
  }
 
@@ -68,6 +69,7 @@ h1 {
     color: #283618;
     display: flex;
     justify-content: space-between;
+
  }
 
 
@@ -136,6 +138,7 @@ a {
 
 .Space {
     display: flex;
+    display: ;
     justify-content: space-evenly;
     flex-direction: column;
     height: 400px;

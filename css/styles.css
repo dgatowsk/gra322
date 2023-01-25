@@ -7,22 +7,21 @@ h1 {
     font-weight: bold;
     font-size: 90px;
     color: #283618;
-    line-height: 1.00;
     margin-bottom: 10px;
     margin-left: 100px;
-    margin-top: 100px;
-}
-.hr { 
-    align-items: left;
+    margin-top: 55px;
+    border-bottom: 10px dotted #283618;
+    border-bottom-width: 1.5rem;
 
 }
+
 .Daria {
     font-weight: bolder; 
     font-size: 120px; 
     color: #606C38; 
     margin-left: 450px;
     border-bottom: 10px dotted #606C38;
-    border-bottom-width: 1rem;
+    border-bottom-width: 1.5rem;
 }
 
 .Gra {
@@ -122,12 +121,6 @@ h1 {
     color: #7B8B46;
 }
 
-.SpaceContainer:hover a{
-    background: #283618;
-    color: #7B8B46;
-
-}
-
 a {
     text-align: center;
     font-weight: bold; 
@@ -145,6 +138,6 @@ a {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 500px;
+    height: 400px;
 }
 

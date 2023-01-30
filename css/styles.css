@@ -155,13 +155,6 @@ a {
         max-width: 40%;
      }
 
-     .Daria {
-        text-align: left;
-        width: 340px; 
-        min-height: 340px;
-        align-self: flex-end;
-
-     }
 
      .Gra {
         text-align: left;
@@ -196,7 +189,6 @@ a {
         justify-content: space-evenly;
         flex-direction: column;
         height: 400px;
-        align-items: flex-end;
 
      }
 

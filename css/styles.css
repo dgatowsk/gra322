@@ -13,8 +13,6 @@ h1 {
     border-bottom: 10px dotted #283618;
     border-bottom-width: 1.5rem;
     width: 70%;
-
-
 }
 
 .Daria {
@@ -33,7 +31,6 @@ h1 {
     font-size: 35px; 
     margin-left: 635px;
     margin-top: 4rem;
-
 }
 
 .Tech {
@@ -43,6 +40,7 @@ h1 {
     color: #283618; 
 
 }
+
 .Design {
     font-weight: bold; 
     font-size: 20px; 
@@ -54,14 +52,15 @@ h1 {
 
 
 }
+
  .Herb {
     font-weight: bold; 
     font-size: 20px; 
     color: #283618;
     margin-left: 10rem;
     margin-bottom: 1.5rem;
-
  }
+
 
  .ASU {
     margin-right: 10rem;
@@ -148,9 +147,38 @@ a {
     height: 400px;
 }
 
-@media screen and (min-width: 1100px) {
-    h1 {
+@media screen and (min-width: 3400px) {
+     .h1{
+        font-size: 80px;
+        text-align: left;
+        justify-items: left;
+     }
 
+     .Daria {
+        text-align: left;
+        justify-items: left;
 
-    }
+     }
+
+     .Gra {
+        text-align: left;
+        justify-content: left;
+     }
+     .Herb {
+        text-align: left;
+     }
+
+     .ASU {
+        text-align: right;
+     }
+     
+     .Design {
+        text-align: left;
+        justify-content: center;
+     }
+
+     .three {
+        align-items: left;
+     }
+
 }

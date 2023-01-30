@@ -147,29 +147,35 @@ a {
     height: 400px;
 }
 
-@media screen and (min-width: 3400px) {
-     .h1{
+@media screen and (min-width: 340px) {
+     
+    .h1{
         font-size: 80px;
         text-align: left;
-        justify-items: left;
+        max-width: 40%;
      }
 
      .Daria {
         text-align: left;
-        justify-items: left;
+        width: 340px; 
+        min-height: 340px;
+        align-self: flex-end;
 
      }
 
      .Gra {
         text-align: left;
-        justify-content: left;
+        
      }
+
      .Herb {
         text-align: left;
      }
 
      .ASU {
-        text-align: right;
+        max-width: 20%;
+        align-content: space-around;
+        border: 10rem 1rem 10rem 1rem; 
      }
      
      .Design {
@@ -178,6 +184,26 @@ a {
      }
 
      .three {
+        text-align: center;
+        
+     }
+
+     .six {
+        align-items: center;
+     }
+     .Space {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 400px;
+        align-items: flex-end;
+
+     }
+
+     .a {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
         align-items: left;
      }
 

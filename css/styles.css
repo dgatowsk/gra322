@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-    font-weight: bold;
-    font-size: 85px;
+    font-weight: 500;
+    font-size: 80px;
     color: #283618;
     margin-bottom: 10px;
     margin-left: 100px;
@@ -16,17 +16,18 @@ h1 {
 }
 
 .Daria {
-    font-weight: bolder; 
+    font-weight: 700; 
     font-size: 115px; 
     color: #606C38; 
-    margin-left: 450px;
+    position: relative;
+    margin-left: 400px;
     border-bottom: 10px dotted #606C38;
     border-bottom-width: 1.5rem;
     width: 68%;
 }
 
 .Gra {
-    font-weight: bold; 
+    font-weight: 400; 
     color: #283618;
     font-size: 35px; 
     margin-left: 635px;
@@ -34,7 +35,7 @@ h1 {
 }
 
 .Tech {
-    font-weight: bold; 
+    font-weight: 400; 
     font-size: 35px; 
     margin-left: 639px;
     color: #283618; 
@@ -42,7 +43,7 @@ h1 {
 }
 
 .Design {
-    font-weight: bold; 
+    font-weight: 400; 
     font-size: 20px; 
     color: #283618;
     margin-left: 10rem;
@@ -54,7 +55,7 @@ h1 {
 }
 
  .Herb {
-    font-weight: bold; 
+    font-weight: 400; 
     font-size: 20px; 
     color: #283618;
     margin-left: 10rem;
@@ -68,7 +69,7 @@ h1 {
  }
 
  .Help {
-    font-weight: bold; 
+    font-weight: 400; 
     font-size: 20px; 
     color: #283618;
     display: flex;
@@ -80,7 +81,7 @@ h1 {
 
 .three {
     text-align: center;
-    font-weight: bold; 
+    font-weight: 400; 
     font-size: 24px; 
     color: #7B8B46; 
     margin-left: 639px;
@@ -98,7 +99,7 @@ h1 {
 
 .six {
     text-align: center;
-    font-weight: bold; 
+    font-weight: 400; 
     font-size: 24px; 
     color: #7B8B46;
     margin-left: 639px; 
@@ -128,11 +129,11 @@ h1 {
 }
 
 a {
-    font-weight: bold; 
-    font-size: 24px; 
-    text-align: center;
-    margin-left: 639px;
     color: #7B8B46; 
+    text-align: center;
+    font-weight: 400; 
+    font-size: 24px; 
+    margin-left: 639px;
     margin: 1px solid #283618;
     display: flex;
     border: 1px solid #283618;
@@ -147,56 +148,17 @@ a {
     height: 400px;
 }
 
-@media screen and (min-width: 340px) {
-     
-    .h1{
+@media screen and (max-width: 340px) {
+    .h1 {
+        font-family: "Karla", sans-serif;
+        font-weight: 500;
         font-size: 80px;
-        text-align: left;
-        max-width: 40%;
-     }
+    }
 
+    .Daria  {
+        font-weight: 700;
+        font-size: 115;
+        margin-left: 120x;
 
-     .Gra {
-        text-align: left;
-        
-     }
-
-     .Herb {
-        text-align: left;
-     }
-
-     .ASU {
-        max-width: 20%;
-        align-content: space-around;
-        border: 10rem 1rem 10rem 1rem; 
-     }
-     
-     .Design {
-        text-align: left;
-        justify-content: center;
-     }
-
-     .three {
-        text-align: center;
-        
-     }
-
-     .six {
-        align-items: center;
-     }
-     .Space {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        height: 400px;
-
-     }
-
-     .a {
-        display: flex;
-        flex-direction: column;
-        height: 400px;
-        align-items: left;
-     }
-
+    }
 }

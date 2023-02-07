@@ -106,18 +106,19 @@ h1 {
 }
 
 .studio h3 {
-    position: relative;
     text-transform: uppercase;
     padding: .5rem;
 }
 
 .studiotext { 
+    margin: auto;
     font-size: 15px;
     padding: 1.5rem;
     border-left: 3px solid #F2F2F2;
     line-height: 26px;
     letter-spacing: 1px;
 }
+
 
 footer {
     font-size: 14px;
@@ -142,6 +143,10 @@ footer {
     figcaption { 
         padding: 2rem;
     }
+    .about .inner {
+    Display: grid; 
+    grid-template-columns: 1fr 3fr; 
+    } 
 }
     
 @media screen and (min-width: 800px) { 

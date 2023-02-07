@@ -1,54 +1,36 @@
 body {
     background: #FEFAE0;
-    font-family: "Karla", sans-serif;
+    font-family: "Karla", sans-serif; 
 }
 
 h1 {
-    font-weight: 500;
-    font-size: 80px;
-    color: #283618;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    margin-top: 55px;
-    border-bottom: 10px dotted #283618;
-    border-bottom-width: 1.5rem;
-    width: 70%;
-}
-
-.Daria {
-    font-weight: 700; 
-    font-size: 115px; 
-    color: #606C38; 
-    position: relative;
-    margin-left: 400px;
-    border-bottom: 10px dotted #606C38;
-    border-bottom-width: 1.5rem;
-    width: 68%;
-}
-
-.Gra {
-    font-weight: 400; 
-    color: #283618;
-    font-size: 35px; 
-    margin-left: 635px;
-    margin-top: 4rem;
+    background-color: rgb(123, 139, 70, .2); 
+    font-weight: 700;
+    font-size: 85px;
+    color: #7B8B46; 
+    padding: 2rem 0rem 2rem 2rem;
 }
 
 .Tech {
-    font-weight: 400; 
-    font-size: 35px; 
-    margin-left: 639px;
-    color: #283618; 
+    font-weight: 700; 
+    font-size: 20px; ;
+    color: #283618;
+    padding: 2rem;
 
 }
+
+.TOB {
+    font-weight: 700; 
+    font-size: 15px; 
+    color: #606C38; 
+    width: 68%;
+}
+
 
 .Design {
     font-weight: 400; 
     font-size: 20px; 
     color: #283618;
-    margin-left: 10rem;
-    margin-top: 10rem;
-    margin-bottom: #283618;
     width: 74%;
 
 
@@ -58,8 +40,6 @@ h1 {
     font-weight: 400; 
     font-size: 20px; 
     color: #283618;
-    margin-left: 10rem;
-    margin-bottom: 1.5rem;
  }
 
 
@@ -68,97 +48,10 @@ h1 {
 
  }
 
- .Help {
-    font-weight: 400; 
-    font-size: 20px; 
-    color: #283618;
-    display: flex;
-    justify-content: space-between;
-    
- }
 
-
-
-.three {
-    text-align: center;
-    font-weight: 400; 
-    font-size: 24px; 
-    color: #7B8B46; 
-    margin-left: 639px;
-    margin: 1px solid #283618;
-    display: flex;
-    border: 1px solid #283618;
-    padding: 2rem;
-    width: 12%;
-    display: inline-block; 
-    background: #FEFAE0;
-    transition: backgrounds .2;
-    pointer-events: all;
-    
-}
-
-.six {
-    text-align: center;
-    font-weight: 400; 
-    font-size: 24px; 
-    color: #7B8B46;
-    margin-left: 639px; 
-    display: flex;
-    border: 1px solid #283618;
-    padding: 2rem;
-    width: 12%;
-    display: inline-block; 
-    background: #FEFAE0;
-    transition: backgrounds .2;
-    pointer-events: all;
-    
-} 
-
-.SpaceContainer {
-    pointer-events: none;
-}
-
-.SpaceContainer:hover .three {
-    background: #283618;
-    color:#7B8B46;
-}
-
-.SpaceContainer:hover .six{
-    background: #283618;
-    color: #7B8B46;
-}
-
-a {
-    color: #7B8B46; 
-    text-align: center;
-    font-weight: 400; 
-    font-size: 24px; 
-    margin-left: 639px;
-    margin: 1px solid #283618;
-    display: flex;
-    border: 1px solid #283618;
-    padding: 2rem;
-    width: 12%;
-}
-
-.Space {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    height: 400px;
-}
-
-@media screen and (max-width: 340px) {
+ @media screen and (min-width: 340px)  {
     .h1 {
-        font-family: "Karla", sans-serif;
-        font-weight: 500;
-        font-size: 80px;
+        position: absolute;
     }
 
-    .Daria  {
-        font-weight: 700;
-        font-size: 115;
-        margin-left: 120x;
-
-    }
-}
+ }

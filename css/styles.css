@@ -3,12 +3,16 @@ body {
     font-family: "Karla", sans-serif; 
 }
 
+
+
 h1 {
     background-color: rgb(123, 139, 70, .2); 
     font-weight: 700;
     font-size: 85px;
     color: #7B8B46; 
     padding: 8rem 0rem 2rem 2rem;
+
+
 }
 
 .Tech {
@@ -87,9 +91,6 @@ a {
     height: 600x;
 }
 
-.SpaceContainer {
-    pointer-events: none;
-}
 
 .SpaceContainer:hover .three {
     background: #283618;
@@ -100,6 +101,9 @@ a {
     background: #283618;
     color: #7B8B46;
 }
+
+
+
 
 @media screen and (min-width: 340px) {
     .Space {

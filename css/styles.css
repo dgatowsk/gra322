@@ -100,3 +100,17 @@ a {
     background: #283618;
     color: #7B8B46;
 }
+
+@media screen and (min-width: 340px) {
+    .Space {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .ASU {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+}

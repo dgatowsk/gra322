@@ -8,50 +8,95 @@ h1 {
     font-weight: 700;
     font-size: 85px;
     color: #7B8B46; 
-    padding: 2rem 0rem 2rem 2rem;
+    padding: 8rem 0rem 2rem 2rem;
 }
 
 .Tech {
     font-weight: 700; 
-    font-size: 20px; ;
+    font-size: 32px; ;
     color: #283618;
-    padding: 2rem;
+    padding: 2rem 0rem .5rem 2rem;
 
 }
 
 .TOB {
     font-weight: 700; 
-    font-size: 15px; 
-    color: #606C38; 
-    width: 68%;
+    font-size: 24px; 
+    color: #283618;
+    padding: 0rem 0rem 2rem 2rem;
 }
 
 
-.Design {
-    font-weight: 400; 
+.ASU {
+    background-color: rgb(123, 139, 70, .2); 
+    padding: 3rem 2rem 2rem 2rem;
+    font-weight: 400;
     font-size: 20px; 
-    color: #283618;
-    width: 74%;
-
-
+    color:#283618; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
- .Herb {
+
+.three {
+    text-align: center;
     font-weight: 400; 
-    font-size: 20px; 
-    color: #283618;
- }
+    font-size: 40px; 
+    color: #7B8B46; 
+    border: 1px solid #283618;
+    border-radius: 24px;
+    padding: 2rem;
+    margin: 2rem;
+    display: inline-block; 
+    background: #FEFAE0;
+    transition: backgrounds .2;
+    pointer-events: all;
+}
 
+.six {
+    text-align: center;
+    font-weight: 400; 
+    font-size: 40px; 
+    color: #7B8B46; 
+    border: 1px solid #283618;
+    border-radius: 24px;
+    padding: 2rem;
+    margin: 2rem;
+    display: inline-block; 
+    background: #FEFAE0;
+    transition: backgrounds .2;
+    pointer-events: all;
+}
 
- .ASU {
-    margin-right: 10rem;
+a {
+    text-align: center;
+    font-weight: 400; 
+    font-size: 40px; 
+    color: #7B8B46; 
+    border: 1px solid #283618;
+    border-radius: 24px;
+    padding: 2rem;
+    margin: 2rem; 
+}
 
- }
+.Space {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 600x;
+}
 
+.SpaceContainer {
+    pointer-events: none;
+}
 
- @media screen and (min-width: 340px)  {
-    .h1 {
-        position: absolute;
-    }
+.SpaceContainer:hover .three {
+    background: #283618;
+    color:#7B8B46;
+}
 
- }
+.SpaceContainer:hover .six{
+    background: #283618;
+    color: #7B8B46;
+}

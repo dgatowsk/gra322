@@ -11,8 +11,7 @@ h1 {
     font-size: 85px;
     color: #7B8B46; 
     padding: 8rem 0rem 2rem 2rem;
-
-
+    text-shadow: 4px 2px #283618;
 }
 
 .Tech {
@@ -20,7 +19,6 @@ h1 {
     font-size: 28px; ;
     color: #283618;
     padding: 2rem 0rem .5rem 2rem;
-
 }
 
 .TOB {
@@ -91,7 +89,6 @@ a {
     height: 600x;
 }
 
-
 .SpaceContainer:hover .three {
     background: #283618;
     color:#7B8B46;
@@ -101,8 +98,6 @@ a {
     background: #283618;
     color: #7B8B46;
 }
-
-
 
 
 @media screen and (min-width: 340px) {

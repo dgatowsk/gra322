@@ -30,7 +30,7 @@ nav {
     overflow: hidden;
     width: 100%;
     transition: all .25s ease-out;
-}
+} 
 
 .open {
     max-height: 200px;

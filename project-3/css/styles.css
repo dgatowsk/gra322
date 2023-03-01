@@ -5,16 +5,16 @@ body {
 
 h1 {
     font-family: Bebas Neue;
-    font-size: 400;
-    font-size: 60px;
+    font-style: 400;
+    font-size: 54px;
     text-align: center;
     color: #041349;
 }
 
-p {
+h2 {
     font-family: Bebas Neue;
-    font-size: 400;
-    font-size: 32px;
+    font-style: 400;
+    font-size: 30px;
     text-align: center;
     color: #041349;
     word-spacing: 5rem;
@@ -25,12 +25,46 @@ header {
     background-size: cover; 
     position: relative;
     max-width: fit-content;
-    height: 40vh;
+    height: 20vh;
 }
+
+.intro {
+    font-family: Bitter;
+    font-style: italic; 
+    font-size: 26px;
+    text-align: center;
+    color: #041349;
+    padding: 2rem;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: auto;
+    position: relative;
+}
+
+.drinks {
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+.drinks figure {
+    margin-bottom: 2rem;
+}
+
+
 
 
 @media screen and (min-width: 340px) { 
     header {
         width: 100%;
     }
+
+    .work-grid {
+        display: grid; 
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+}
 }

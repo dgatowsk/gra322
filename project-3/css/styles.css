@@ -87,7 +87,7 @@ header {
   }
 
 .drinksmore {
-    margin-top: 50px;
+    margin-top: 100px;
     display: flexbox;
     justify-content: left;
 }
@@ -109,5 +109,10 @@ header {
         display: flex; 
         gap: 1rem;
         align-items: center;
+}
+.button{
+    display: block;
+    position: relative;
+    left: 5%; transform: translateX(-50%);
 }
 }

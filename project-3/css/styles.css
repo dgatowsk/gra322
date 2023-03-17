@@ -19,16 +19,22 @@ h1 {
 }
 
 .learn {
-    font-family: Bebas Neue;
-    text-align: center;
-    font-style: 400;
+    background-color: white;
+    padding-bottom: 2rem; 
+    font-family: Bebas Neue; 
     font-size: 36px;
-    color: #041349; 
-    padding: .5rem;
-    border: 5px solid #041349;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
+
+button {
+    background-color: white;
+    border: 3px solid #041349;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
 
 h2 {
     font-family: Bebas Neue;
@@ -81,7 +87,9 @@ header {
   }
 
 .drinksmore {
+    margin-top: 50px;
     display: flexbox;
+    justify-content: left;
 }
 
 .work-grid {

@@ -5,19 +5,34 @@ body {
 
 h1 {
     font-family: Bebas Neue;
-    font-style: 400;
     font-size: 54px;
     text-align: center;
     color: #041349;
 }
 
+.p1 {
+    font-family: Bitter;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    color: #041349; 
+}
+
 h2 {
     font-family: Bebas Neue;
-    font-style: 400;
     font-size: 30px;
     text-align: center;
     color: #041349;
     word-spacing: 5rem;
+}
+
+h3 {
+    font-family: Bebas Neue;
+    font-size: 50px;
+    text-align: center;
+    color: #041349;
+    word-spacing: 5rem;
+
 }
 
 header {
@@ -52,6 +67,20 @@ header {
 
 .drinks figure {
     margin-bottom: 2rem;
+    max-width: 100;
+}
+
+.drinksinner {
+    max-width: 400px; 
+}
+
+figcaption {
+    font-family: Bitter;
+    color: #041349;
+    font-size: 40px;
+    font-style: bold;
+    text-align: center;
+
 }
 
 

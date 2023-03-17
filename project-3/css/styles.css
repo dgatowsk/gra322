@@ -27,11 +27,10 @@ h2 {
 }
 
 h3 {
-    font-family: Bebas Neue;
+    font-family: Bitter;
     font-size: 50px;
     text-align: center;
     color: #041349;
-    word-spacing: 5rem;
 
 }
 
@@ -52,6 +51,15 @@ header {
     padding: 2rem;
 }
 
+.vodka {
+    font-family: Bitter;
+    font-style: italic; 
+    font-size: 30px;
+    text-align: center;
+    color: #041349;
+    padding: 2rem;
+}
+
 .inner {
     margin: 0 auto;
     max-width: auto;
@@ -60,28 +68,22 @@ header {
 
 .drinks {
     display: flex;
-    flex-wrap:wrap; 
+    flex-wrap: wrap; 
     justify-content: space-between;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 5rem;
+    align-items: center;
 }
 
 .drinks figure {
+    align-items: center;
     margin-bottom: 2rem;
-    max-width: 100;
 }
 
 .drinksinner {
     max-width: 400px; 
+    align-items: center;
 }
 
-figcaption {
-    font-family: Bitter;
-    color: #041349;
-    font-size: 40px;
-    font-style: bold;
-    text-align: center;
-
-}
 
 
 
@@ -92,8 +94,8 @@ figcaption {
     }
 
     .work-grid {
-        display: grid; 
+        display: flex; 
         gap: 1rem;
-        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
 }
 }

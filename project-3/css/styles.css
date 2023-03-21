@@ -137,7 +137,7 @@ footer {
 
 
 
-@media screen and (min-width: 500px) { 
+@media screen and (min-width: 800px) { 
     header {
         width: 100%;
     }
@@ -145,5 +145,27 @@ footer {
     .drinksmore figure {
         max-width: 600px;
     }
+
+.pearinfo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem;
+
+}
+
+.berryinfo {
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem;
+
+}
+
+.lemoninfo {
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem;
+
+}
+
 
 }

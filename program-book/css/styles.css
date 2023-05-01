@@ -10,19 +10,22 @@ font-family: 'Nunito Sans', sans-serif;
 }
 
 /* Core Elements and Typography (h1,h2, fig, p..) */ 
- 
+
+
+
 h1 {
     font-size: 18px;
     font-weight: 900;
     color: #595959;
     text-align: center;
+    padding-bottom: 2.5rem;
 }
 
 p {
     font-size: 16px;
     font-weight: 16px;
     color: #595959;
-    text-align: center;
+    padding-right: 5rem;
 }
 
 h2 {
@@ -42,6 +45,21 @@ h3 {
     
 }
 
+h4 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #b81132;
+    padding-right: 25rem;
+    
+}
+
+h5 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #595959;
+    text-align: center;
+    padding: 5rem;
+}
 
 .work {
     display: grid;
@@ -81,7 +99,65 @@ header {
 
 .DG {
     max-width: 80px;
-    }      
+}     
+
+
+
+
+/* Nav */ 
+
+
+nav {
+    display: none;
+    position: absolute;
+    background: transparent;
+    padding: 1rem;
+    right: 0;
+    margin-top: 50px;
+}
+
+.button-menu {
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-top: 0;
+
+
+}
+
+.fa-bars {
+    font-size: 2rem;
+
+}
+
+.open {
+    max-height: 240px;
+    max-width: 240px;
+    display: block;
+}
+
+li {
+    font-family: 'Nunito Sans', sans-serif;
+    font: 12px;
+    font-weight: 400;
+    list-style: none;
+    text-align: right;
+}
+
+nav a {
+    color: black; 
+    text-decoration: none;
+}
+
+.nav-active {
+    color: red;
+    font-weight: 600;
+}
+
+.ah {
+    display: grid;
+}
+
+
 
 
 /* Single Project Template (project 1, 2 ....) */ 

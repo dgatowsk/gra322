@@ -244,6 +244,17 @@ img {
         gap: 4rem;
     }
 
+    .zerouimages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+    .video {
+        max-width: 1500px;
+        max-height: 1500px;
+        padding: 2rem;
+    }
+
     img {
         gap: 2rem; 
     }

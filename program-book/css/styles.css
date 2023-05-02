@@ -199,7 +199,7 @@ nav a {
 }
 
 img {
-    gap: 2rem;
+    padding: 1rem;
 }
 
 /* Home Project Template (.home h1...) */ 
@@ -239,7 +239,7 @@ img {
     }
 
     img {
-        padding: 2rem; 
+        gap: 2rem; 
     }
 
 

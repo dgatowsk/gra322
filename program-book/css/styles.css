@@ -220,9 +220,15 @@ img {
         gap: 4rem;
     }
 
+    img {
+        padding: 2rem; 
+    }
+
     .apostleimages {
         display: grid;
-        gap: 4rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 2rem;
     }
 
 

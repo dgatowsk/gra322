@@ -194,6 +194,10 @@ nav a {
     gap: 10rem; 
 }
 
+.belvederedekstopimg {
+    gap: 10rem; 
+}
+
 img {
     gap: 2rem;
 }
@@ -220,8 +224,11 @@ img {
         gap: 4rem;
     }
 
-    img {
-        padding: 2rem; 
+    .belvederedekstopimg {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+
     }
 
     .apostleimages {
@@ -229,6 +236,10 @@ img {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
         padding: 2rem;
+    }
+
+    img {
+        padding: 2rem; 
     }
 
 

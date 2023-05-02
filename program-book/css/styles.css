@@ -183,9 +183,19 @@ nav a {
 /* p3 */ 
 
 .codepenimages {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9rem;
+    gap: 10rem;
+}
+
+.responsiveimages {
+    gap: 10rem;
+}
+
+.apostleimages {
+    gap: 10rem; 
+}
+
+img {
+    gap: 2rem;
 }
 
 /* Home Project Template (.home h1...) */ 
@@ -200,8 +210,19 @@ nav a {
     .codepenimages {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 9rem;
+        gap: 4rem;
 
+    }
+
+    .responsiveimages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .apostleimages {
+        display: grid;
+        gap: 4rem;
     }
 
 

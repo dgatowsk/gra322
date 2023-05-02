@@ -238,6 +238,12 @@ img {
         padding: 2rem;
     }
 
+    .aromaimages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
     img {
         gap: 2rem; 
     }
